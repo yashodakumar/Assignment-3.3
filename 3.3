@@ -1,0 +1,3 @@
+mymat<-matrix(rep(seq(5), 4), ncol = 5)
+apply(mymat, 1, sum) #sum on rows = [1] 15 15 15 15
+apply(mymat, 2, sum) #sum on columns = [1] 10 11 12 13 14
